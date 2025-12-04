@@ -1,9 +1,9 @@
-import Main from './Components/Main';
+import Header from './Components/Header/Header';
 
 const App = () => {
   return (
     <div>
-      <Main />
+      <Header />
     </div>
   )
 };

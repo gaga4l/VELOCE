@@ -3,4 +3,22 @@
 
 @theme {
     --font-jaro: "Jaro", sans-serif;
+    
+    
+    /*Colors*/
+    --color-accent1: #0F0F0F;
+    --color-accent2: #613B0F;
+    --color-accent3: #FFFFFF;
+    --color-background1: #FFFFFF;
+    --color-background2: #CD9D65;
+    --color-background3: #000000;
+    --color-background4: #000000;
+
+    --color-headline1: #000000;
+    --color-headline2: #FFFFFF;
+    --color-body1: #000000;
+    --color-body2: #FFFFFF;
+    --color-link: #000000;
+    
+    
 }
