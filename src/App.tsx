@@ -1,4 +1,12 @@
+import Header from './Components/Header';
+import Main from './Components/Main';
+
 const App = () => {
-  return <h1>Lelisa</h1>;
+  return (
+    <div>
+      <Header />
+      <Main />
+    </div>
+  )
 };
 export default App;
