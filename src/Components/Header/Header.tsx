@@ -1,10 +1,15 @@
 import Veloce from "./Navigation/WordMark/Veloce";
 import NavLink from "./Navigation/LockUp/Links/NavLink";
+import DecorativeBorder from "./DecorativeBorder";
+
 const Header  = () => {
   return (
-    <header className="pl-10 pr-8 pt-3 flex justify-between">
-      <Veloce />
-      <NavLink />
+    <header >
+      <div className="flex justify-between pl-10 pr-8 pt-3">
+        <Veloce />
+        <NavLink />
+      </div>
+      <DecorativeBorder />
     </header>
     
   )
