@@ -3,6 +3,7 @@ import AboutSection from "../../Components/Main/About Section/AboutSection";
 import FeaturedProduct from "../../Components/Main/Featured Product/FeaturedProduct";
 import Products from "../../Components/Main/Product Grid/Products";
 import FlavorsSection from "../../Components/Main/Flavors Section/FlavorsSection";
+import StocklistSection from "../../Components/Main/Stocklist Section/StocklistSection";
 export default function Main() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Main() {
       <FeaturedProduct />
       <Products />
       <FlavorsSection />
+      <StocklistSection />
     </>
   );
 }
