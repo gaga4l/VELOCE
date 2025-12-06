@@ -1,4 +1,4 @@
-import Button from "../../Shared/Button/Button";
+import AboutButton from "./AboutButton";
 const AboutSection = () => {
   return (
     <section>
@@ -8,7 +8,7 @@ const AboutSection = () => {
           herbs and nutraceuticals to elevate your well-being, without
           compromising the sophisticated ritual of the aperitif.
         </p>
-        <Button textClr="background2" strokeClr="accent1" background="accent1" />
+        <AboutButton />
       </div>
       
     </section>
