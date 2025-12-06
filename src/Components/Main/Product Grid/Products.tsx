@@ -26,7 +26,7 @@ const productData = [
 
 const Products = () => {
   return (
-    <section className="px-2.5 py-2.5 flex flex-col gap-[100px]">
+    <section className="px-2.5 py-2.5 flex flex-col gap-[100px] pb-[100px]">
       {productData.map((product) => (
         <Product key={product.id} {...product} />
       ))}
