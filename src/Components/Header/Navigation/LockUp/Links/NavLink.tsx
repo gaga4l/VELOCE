@@ -3,19 +3,19 @@ import { Link, UNSAFE_useFogOFWarDiscovery } from "react-router-dom";
 function NavLink() {
   return (
     <nav className="flex flex-col text-end md:flex-row md:justify-between md:border-t md:pt-2.5">
-      <Link className="font-jaro font-bold md:text-[24px] md:hidden" to="/">
+      <Link className="font-jaro font-bold md:text-[24px] md:hidden hover:text-accent1/75 transition-all duration-300" to="/">
         Home
       </Link>
-      <Link className="font-jaro font-bold md:text-[24px]" to="/about">
+      <Link className="font-jaro font-bold md:text-[24px] hover:text-accent1/75 transition-all duration-300" to="/about">
         About
       </Link>
-      <Link className="md:hidden font-jaro font-bold md:text-[24px]" to="/findus">
+      <Link className="md:hidden font-jaro font-bold md:text-[24px] hover:text-accent1/75 transition-all duration-300" to="/findus">
         Find Us
       </Link>
-      <Link className="hidden md:block font-jaro font-bold md:text-[24px]" to="/findus">
+      <Link className="hidden md:block font-jaro font-bold md:text-[24px] hover:text-accent1/75 transition-all duration-300" to="/findus">
         Find stocklists
       </Link>
-      <Link className="font-jaro font-bold md:text-[24px]" to="/contact">
+      <Link className="font-jaro font-bold md:text-[24px] hover:text-accent1/75 transition-all duration-300" to="/contact">
         Contact
       </Link>
     </nav>
