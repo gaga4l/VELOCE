@@ -1,9 +1,12 @@
-import wordmark from "C:/Users/HP/OneDrive/Documents/Full stack projects/Frontend/react/VELOCE/src/assets/Wordmark.svg"
+import VeloceMobile from "../../../../assets/Wordmark.svg"
+import VeloceTablet from "../../../../assets/Veloce Tablet.svg"
+import VeloceDesktop from "../../../../assets/Veloce Desktop.svg"
+
 export default function Veloce() {
   return (
     <div className="w-[107px] h-[35.19px] ">
       {/*<h1 className="font-jaro text-4xl accent-accent1">{"véloce".toUpperCase()}</h1>*/}
-      <a href="/"><img className="w-full" src={wordmark} alt="Wordmark" /></a>
+      <a href="/"><img className="w-full" src={VeloceMobile} alt="Wordmark" /></a>
     </div>
   );
 }

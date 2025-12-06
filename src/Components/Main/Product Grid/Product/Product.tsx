@@ -13,12 +13,11 @@ const Product = ({ name, description, image }: Props) => {
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
-      >   
-          <div className="absolute  inset-0 bg-white opacity-0 hover:opacity-30 transition-opacity duration-300"></div>
+      >
+        <div className="absolute inset-0 bg-white opacity-0 hover:opacity-30 transition-opacity duration-300"></div>
         <p className="absolute z-10 font-staatliches text-[32px] text-[#ffffff] leading-[120%] tracking-[1%]">
           {name}
         </p>
-       
       </div>
       <p className="font-staatliches text-[18px] text-body1 leading-[145%] tracking-[1%]">
         {description}
