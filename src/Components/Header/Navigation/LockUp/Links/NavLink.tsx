@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function NavLink() {
   return (
-    <nav className="flex flex-col align-bottom">
+    <nav className="flex flex-col text-end">
       <Link className="font-jaro font-bold" to="/">
         Home
       </Link>

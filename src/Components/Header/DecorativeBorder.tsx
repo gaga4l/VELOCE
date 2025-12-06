@@ -3,7 +3,7 @@ import DecorativeBorder1 from "../../assets/Decorative border.svg"
 const DecorativeBorder = () => {
   return (
     <img
-    className="w-[798.67px] h-5 object-cover "
+    className="w-full h-5 object-cover"
       src={DecorativeBorder1}
       alt="Decorative Border"
     />
