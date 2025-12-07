@@ -5,9 +5,9 @@ interface Props {
 }
 const Product = ({ name, description, image }: Props) => {
   return (
-    <article className="w-full h-[543px] flex flex-col gap-[30px] pb-[50px]">
+    <article className="w-full h-fit flex flex-col gap-[30px] pb-[50px] md:w-[600px] ">
       <div
-        className="w-full relative aspect-3/3 px-[30px] py-[30px] bg-cover bg-center"
+        className="w-full h-[355px] relative p-[30px] bg-cover bg-center md:h-[600px]"
         style={{
           backgroundImage: `url(${image})`,
           backgroundPosition: "center",
@@ -19,15 +19,17 @@ const Product = ({ name, description, image }: Props) => {
           {name}
         </p>
       </div>
-      <p className="font-staatliches text-[18px] text-body1 leading-[145%] tracking-[1%]">
+      <div className="w-full h-fit pr-[60px] flex flex-col gap-[30px]">
+        <p className="font-staatliches text-[18px] text-body1 leading-[145%] tracking-[1%] md:text-[20px] md:leading-[135%]">
         {description}
       </p>
       <a
         href="#"
-        className="font-staatliches text-[18px] text-body1 leading-[145%] tracking-[1%] hover:opacity-60 transition-opacity duration-300"
+        className="font-staatliches text-[18px] text-body1 leading-[145%] tracking-[1%] md:text-[20px] md:leading-[135%] hover:opacity-60 transition-opacity duration-300"
       >
         Find near you
       </a>
+      </div>
     </article>
   );
 };
