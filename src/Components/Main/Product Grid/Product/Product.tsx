@@ -7,15 +7,13 @@ const Product = ({ name, description, image }: Props) => {
   return (
     <article className="w-full h-fit flex flex-col gap-[30px] pb-[50px] md:w-[600px] ">
       <div
-        className="w-full h-[355px] relative p-[30px] bg-cover bg-center md:h-[600px]"
+        className="w-full aspect-square relative p-[30px] bg-cover bg-center md:h-[600px]"
         style={{
-          backgroundImage: `url(${image})`,
-          backgroundPosition: "center",
-          backgroundSize: "cover",
+          backgroundImage: `url(${image})`
         }}
       >
         <div className="absolute inset-0 bg-white opacity-0 hover:opacity-30 transition-opacity duration-300"></div>
-        <p className="absolute z-10 font-staatliches text-[32px] text-[#ffffff] leading-[120%] tracking-[1%]">
+        <p className="absolute z-10 font-staatliches text-[32px] text-[#ffffff] leading-[120%] tracking-[1%] md:text-[38px] md:leading-[110%]">
           {name}
         </p>
       </div>
