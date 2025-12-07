@@ -27,7 +27,7 @@ const productData = [
 const Products = () => {
   return (
     <section className="px-2.5 py-2.5 flex flex-col items-center gap-[100px] w-full h-fit md:px-0 md:py-[30px] lg:px-[30px]">
-      <div className="min-w-[355px] w-full  flex flex-col items-center gap-5 md:px-[30px] md:justify-center md:w-[800px] lg:w-full lg:p-0 lg:grid lg:grid">
+      <div className="min-w-[355px] w-full  flex flex-col items-center gap-5 md:px-[30px] md:justify-center md:w-[800px] lg:w-full lg:p-0 lg:grid xl:grid-cols-2 2xl:grid-cols-3">
       {productData.map((product) => (
         <Product key={product.id} {...product} />
       ))}

@@ -6,13 +6,13 @@ const Footer = () => {
         <div className="w-full h-fit pb-[50px] flex flex-col gap-[7px] lg:pb-[120px]">
           <a
             href=""
-            className="font-jaro text-[16px] text-link leading-[139%] tracking-[0%] font-extrabold md:text-[24px] lg:[26px]"
+            className="font-jaro text-[16px] text-link leading-[139%] tracking-[0%] font-extrabold md:text-[24px] lg:[26px] hover:text-accent1/75 transition-all duration-300"
           >
             {"Find stocklists".toUpperCase()}
           </a>
           <a
             href=""
-            className="font-jaro text-[16px] text-link leading-[139%] tracking-[0%] font-extrabold md:text-[24px] lg:text-[26px] "
+            className="font-jaro text-[16px] text-link leading-[139%] tracking-[0%] font-extrabold md:text-[24px] lg:text-[26px] hover:text-accent1/75 transition-all duration-300 "
           >
             {"About".toUpperCase()}
           </a>

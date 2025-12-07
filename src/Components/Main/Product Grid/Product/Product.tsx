@@ -5,9 +5,9 @@ interface Props {
 }
 const Product = ({ name, description, image }: Props) => {
   return (
-    <article className="w-full h-fit flex flex-col gap-[30px] pb-[50px] md:w-[600px]">
+    <article className="w-full h-fit flex flex-col gap-[30px] pb-[50px] md:w-[600px] xl:w-[600px] 2xl:w-[460px]">
       <div
-        className="w-full aspect-square relative p-[30px] bg-cover bg-center md:h-[600px]"
+        className="w-full aspect-square relative p-[30px] bg-cover bg-center md:h-[600px] xl:h-[600px] 2xl:h-[460px]"
         style={{
           backgroundImage: `url(${image})`
         }}
