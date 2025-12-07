@@ -3,12 +3,11 @@ import FeatureProductImage from "../../../assets/maxim-hopman-NLCKduPjJqo-unspla
 const FeaturedProduct = () => {
   return (
     <section style={{
-      backgroundImage: `url(${FeatureProductImage})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center",
+      backgroundImage: `url(${FeatureProductImage})`
     }} 
-    className="md:h-[800px] md:w-full"
+    className="md:h-[800px] md:w-full bg-cover bg-center"
     > 
+        {/*<div className="absolute inset-0 bg-black/40"></div>*/}
         <div className="backdrop-brightness-75 w-full h-full md:px-[94px] md:py-20 md:flex md:items-end md:justify-center ">
           <div className="md:w-[509px] md:h-fit md:p-0 md:flex md:flex-col md:gap-2">
             <div className="md:w-[115px] md:h-11"><img src={NewTag} alt="New Tag" /></div>
