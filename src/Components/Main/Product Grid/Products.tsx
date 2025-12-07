@@ -26,9 +26,8 @@ const productData = [
 
 const Products = () => {
   return (
-    <section className="px-2.5 py-2.5 flex flex-col items-center gap-[100px] w-full h-fit md:px-0 md:py-[30px]">
-      <div className="min-w-[355px] w-fit flex flex-col items-center gap-5 md:px-[30px] md:justify-center md:w-[800px] ">
-      {productData.map((product) => (
+    <section className="px-2.5 py-2.5 flex flex-col items-center gap-[100px] w-full h-fit md:px-0 md:py-[30px] lg:px-[30px]">
+      <div className="w-full max-w-[1220px] grid gap-8 grid-cols-[repeat(auto-fill,minmax(280px,1fr))]">      {productData.map((product) => (
         <Product key={product.id} {...product} />
       ))}
       </div>
