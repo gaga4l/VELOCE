@@ -5,7 +5,7 @@ interface Props {
 }
 const Product = ({ name, description, image }: Props) => {
   return (
-    <article className="w-full h-fit flex flex-col gap-[30px] pb-[50px] min-w-[375px]">
+    <article className="w-full h-fit flex flex-col gap-[30px] pb-[50px] md:w-[600px]">
       <div
         className="w-full aspect-square relative p-[30px] bg-cover bg-center md:h-[600px]"
         style={{
