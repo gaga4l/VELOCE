@@ -1,4 +1,4 @@
-import DecorativeBorder from "../../assets/Decorative border mobile.svg"
+import DecorativeBorder from "../../assets/Decorative_border_mobile.svg";
 const Footer = () => {
   return (
     <footer className="w-full h-fit text-center bg-background2">
@@ -37,7 +37,11 @@ const Footer = () => {
           {"véloce© 2025 All Rights Reserved".toUpperCase()}
         </p>
       </div>
-      <img className="w-full h-[32.08px] object-cover" src={DecorativeBorder} alt="decorative border" />
+      <img
+        className="w-full h-[32.08px] object-cover"
+        src={DecorativeBorder}
+        alt="decorative border"
+      />
     </footer>
   );
 };

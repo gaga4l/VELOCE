@@ -6,9 +6,9 @@ import DecorativeBorder from "./DecorativeBorder";
 const Header  = () => {
   return (
     <header>
-      <div className="flex justify-between pl-10 pr-8 pt-3 pb-6 md:flex-col md:justify-start md:gap-[70px] md:p-[30px]">
+      <div className="flex justify-between pl-10 pr-8 pt-3 pb-6 md:flex-col md:justify-start md:gap-[70px] md:p-[30px] lg:grid lg:grid-cols-2 lg:items-center lg:pt-2.5">
         <Veloce />
-        <div className="pr-[30px] md:p-0 md:order-first md:flex md:flex-col md:gap-[50px]">
+        <div className="md:p-0 md:order-first md:flex md:flex-col md:gap-[50px] lg:order-2 lg:items-start lg:justify-between lg:h-full lg:pr-[30px] lg:pt-[50px]">
           <Tagline />
           <NavLink />
         </div>
