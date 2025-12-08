@@ -38,7 +38,7 @@ const Footer = () => {
         </p>
       </div>
       <img
-        className="w-full h-[32.08px] object-cover object-center"
+        className="w-full h-[32.08px] object-cover object-center lg:h-[32.05px]"
         src={DecorativeBorder}
         alt="decorative border"
       />
