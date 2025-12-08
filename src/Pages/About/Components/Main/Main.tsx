@@ -1,4 +1,4 @@
-import FounderSection from "./FounderSection"
+import FounderSection from "./FounderSection/FounderSection"
 import ContactInfo from "./ContactInfo"
 
 const Main = () => {
