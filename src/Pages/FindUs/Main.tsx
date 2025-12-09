@@ -26,8 +26,9 @@ const stocklistData = [
 
 const Main = () => {
   return (
-    <main className="flex justify-center items-center px-5 py-[120px] bg-cover bg-center md:px-10 lg:px-[200px]" style={{backgroundImage: `url(${BackgroundImage})`}}>
-      <div className="bg-background1 w-full flex flex-col items-center gap-[50px] px-6 pt-8 max-w-[335px] md:max-w-[720px] ">
+    <main className="flex justify-center items-center px-5 py-[120px] bg-cover bg-center  md:px-10 lg:px-[200px]" style={{backgroundImage: `url(${BackgroundImage})`}}>
+      
+      <div className="bg-background1 w-full flex flex-col items-center gap-[50px] px-6 pt-8 max-w-[335px] md:max-w-none">
         <p className="font-geist font-bold text-headline1 leading-[110%] tracking-[-5%] text-[13px] md:text-[14px] lg:text-[15px] ">OUR STOCK LISTS</p>
         <ul className="md:px-16 w-full">
           {stocklistData.map((item) => (
@@ -38,6 +39,7 @@ const Main = () => {
           ))}
         </ul>
       </div>
+      
     </main>
   )
 }
