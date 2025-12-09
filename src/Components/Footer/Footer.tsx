@@ -1,7 +1,7 @@
 import DecorativeBorder from "../../assets/Decorative_border_mobile.svg";
-const Footer = () => {
+const Footer = ({ backgroundColor }: { backgroundColor: string }) => {
   return (
-    <footer className="w-full h-fit text-center bg-background2">
+    <footer className={`w-full h-fit text-center ${backgroundColor == "home"? "bg-background2" : "bg-background1"}`}>
       <div className="w-full h-fit px-[30px] pt-[50px] pb-[100px] md:py-[30px] lg:pb-0 lg:flex lg:flex-row lg:text-start">
         <div className="w-full h-fit pb-[50px] flex flex-col gap-[7px] lg:pb-[120px]">
           <a
