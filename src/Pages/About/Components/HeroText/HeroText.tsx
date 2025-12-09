@@ -6,7 +6,7 @@ const HeroText = () => {
           ABOUT
         </p>
         <p className="font-staatliches text-headline2 text-[40px] leading-[110%] tracking-[-0.5%] md:tracking-[-1%] md:text-[50px] lg:text-[60px] ">
-          {"Véloce represents a new era of the aperitif, where flavor and functionality converge in a beautifully crafted, alcohol-free beverage.".toUpperCase()}
+          Véloce represents a new era of the aperitif, where flavor and functionality converge in a beautifully crafted, alcohol-free beverage.
         </p>
       </div>
     </div>

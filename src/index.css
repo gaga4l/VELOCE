@@ -24,3 +24,7 @@
     --color-body2: #ffffff;
     --color-link: #000000;
 }
+
+body {
+    text-transform: uppercase;
+}
