@@ -1,7 +1,7 @@
 // import DecorativeBorderMobile from "../../assets/Decorative border mobile.svg";
-import WhiteDecorativeBorder1 from "../../../../../assets/White Decorative border mobile.svg";
-import WhiteDecorativeBorderTablet from "../../../../../assets/White Decorative Border Tablet.svg";
-import WhiteDecorativeBorderDesktop from "../../../../../assets/White Decorative Border Desktop.svg";
+import WhiteDecorativeBorder1 from "../../../../../assets/Decorative border.svg";
+import WhiteDecorativeBorderTablet from "../../../../../assets/Decorative border-1.svg";
+import WhiteDecorativeBorderDesktop from "../../../../../assets/Decorative border-2.svg";
 const WhiteDecorativeBorder = () => {
   return (
     <div>

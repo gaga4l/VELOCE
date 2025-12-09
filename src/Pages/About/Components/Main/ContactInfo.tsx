@@ -1,6 +1,8 @@
 const ContactInfo = () => {
   return (
-    "hello"
+  <section className="grid h-[1537px] md:h-[1280px] xl:grid-cols-2 lg:h-[800px]">
+  
+  </section>
   )
 }
 
