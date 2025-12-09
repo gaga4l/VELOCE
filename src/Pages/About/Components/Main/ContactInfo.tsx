@@ -24,7 +24,7 @@ const ContactInfo = () => {
     <div className="relative h-[800px] md:h-[640px] lg:h-[800px] ">
       <img className="object-cover object-center h-full w-full saturate-0" src={MacroMontero} alt="Macro Montero Image" />
     </div>
-    <div className="p-[30px] md:h-[800px] flex flex-col gap-[260px] md:justify-between ">
+    <div className="bg-background3 p-[30px] md:h-[800px] flex flex-col gap-[260px] md:justify-between ">
       <div className="flex flex-col gap-6">
         <p className="font-geist text-headline2 font-bold leading-[110%] tracking-[-5%] lg:text-[15px] ">CONTACT</p>
         <ul className="flex flex-col gap-6">
@@ -36,6 +36,12 @@ const ContactInfo = () => {
             )
           })}
         </ul>
+      </div>
+      
+      <div className="py-[30px] border-t border-[#ffffff] h-[180px] lg:text-center lg:h-fit">
+        <p className="text-headline2 font-staatliches text-[100px] leading-[80%] tracking-[1%] md:text-[130px] lg:text-[150px] ">
+          EST.2005
+        </p>
       </div>
       
     </div>
