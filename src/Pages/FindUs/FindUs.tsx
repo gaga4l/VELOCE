@@ -1,8 +1,13 @@
+import Nav from "../About/Components/Navigaiton/Nav";
+import Main from "./Main"
+import Footer from "../../Components/Footer/Footer"
 const FindUs = () => {
   return (
-    <div>
-      "Find Us"
-    </div>
+    <>
+      <Nav />
+      <Main /> 
+      <Footer backgroundColor="findUs" />
+    </>
   )
 }
 

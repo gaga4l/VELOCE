@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
-import Contact from "./Pages/Contact/Contact";
+import FindUs from "./Pages/FindUs/FindUs";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/findus" element={<FindUs />} />
         {/* Optional: Add a route for 404 Not Found */}
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
